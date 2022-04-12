@@ -28,7 +28,7 @@ module.exports = {
           response = JSON.parse(response);
           context.result = response;
         }).catch((err) => {
-          throw new errors.Unprocessable('Flickr Server not response', {
+          throw new errors.Unprocessable('An error occur while contacting Flickr Server', {
             error: err
           });
         });
