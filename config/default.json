@@ -5,5 +5,9 @@
   "paginate": {
     "default": 10,
     "max": 50
+  },
+  "flickr-auth": {
+    "key": "4be1461e433d9217d2b3d3403b6704bb",
+    "secret": "e4a7eb78bad45503"
   }
 }
